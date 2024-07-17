@@ -1,0 +1,259 @@
+
+/* ELEMENTS */
+*{
+    background-color: #EBF4F6;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #071952;
+    font-weight: bold;
+}
+
+h2{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #071952;
+}
+
+h3{
+    color: #071952;
+    padding: 1.5vh;
+    font-size: large;
+}
+
+p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #071952;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    color: #071952;
+    font-size: medium;
+    border: none;
+}
+
+/* ---------------------------------------------------------- */
+
+
+/* NAVBAR */
+
+.NavbarContainer {
+    display: inline-flex;
+    justify-content: flex-end;
+    gap: 3vh;
+    margin-left: 105vh; /* Adjust as needed */
+    position: fixed;
+    background-color: #EBF4F6; /* Initial background */
+    transition: opacity 0.5s ease, background-color 0.3s ease;
+    z-index: 1000;
+    margin-top: 4.5vh; /* Adjust as needed */
+}
+
+.NavbarContainer.scrolled {
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 150vh;
+    margin-top: 0px; /* Adjust based on your design */
+}
+
+.NavbarContainer.hidden {
+    opacity: 0; /* Hide the navbar */
+    pointer-events: none; /* Disable pointer events on hidden navbar */
+}
+
+.NavbarContainer button:hover {
+    font-weight: bold; 
+}
+
+.name{
+    display: inline-block;
+    margin-left: 25vh;
+}
+
+.name, .NavbarContainer , button{ 
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+/* ----------------------------------------------- */
+
+/* HOMEPAGE */
+
+.section1{
+    margin-bottom: 32.5vh;
+    margin-top: 25vh;
+}
+
+.MainName{
+    text-align: center;
+    font-size: 5.5vh;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.icon{
+    height: 7vh;
+    width: 7vh;
+    fill: #071952;
+    margin-top: 2vh;
+}
+
+.icon-flex{
+    display: flex;
+    gap: 6vh;
+    justify-content: center;
+    margin-right: 8vh;
+}
+
+/* -------------------------------------------------- */
+
+/* ABOUT  */
+
+.AbtContainer{
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 25vh;
+    scroll-margin-top: 10vh;
+}
+
+.Flex1{
+    display: flex;
+    flex-direction: column;
+}
+
+.Abt > h1{
+    margin-bottom: 0;
+}
+
+.Abt{
+    padding-left: 20px;
+}
+
+.AbtTxt{
+    font-size: larger;
+}
+
+.img{
+    width: 40vh;
+    height: 45vh;
+    margin-left: 20vh;
+    margin-top: 11vh;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.AbtContainer > .img > p{
+    background-color: #071952;
+    color: #EBF4F6;
+    text-align: center;
+    margin-top: 14vh;
+}
+
+
+/* -------------------------------------------------------------- */
+
+/* EXPERIENCES */
+
+.E1{
+    padding: 0vh 2vh 2vh 2vh;
+    width: 50vh;
+    margin-left: 0vh;
+    font-size: large;
+}
+
+.ContentContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    gap: 1vh;
+}
+
+.ExpContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.elecimg{
+    width: 52.7vh;
+    height: 40vh;
+    background-color: #071952;
+    margin-left: 0px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+.AbtMod{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+.section3{
+    margin-top: 10vh;
+    margin-left: 25vh;
+    scroll-margin-top: 5vh;
+}
+
+.elecimg {
+    position: relative;
+}
+
+.language-grid {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2); 
+    color: #071952 ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: center;
+    justify-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.language-grid .language {
+    padding: 1vh;
+    font-size: 1.2em;
+    border-radius: 1.5vh;
+}
+
+.elecimg:hover .language-grid {
+    display: grid;
+    opacity: 1;
+}
+
+.car4X4{
+    background-image: url(pics/4X4.jpg);
+    background-size: cover;
+}
+
+.pythonteach{
+    background-image: url(pics/teach.jpg);
+    background-size: cover;
+}
+
+.personal{
+    margin-top: 6.5vh;
+    width: 52.7vh;
+}
+
+.app{
+    width: 52.7vh;
+    height: 40vh;
+}
