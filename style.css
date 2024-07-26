@@ -1,4 +1,3 @@
-
 /* ELEMENTS */
 *{
     background-color: #EBF4F6;
@@ -147,10 +146,10 @@ button{
 }
 
 .img{
-    width: 40vh;
-    height: 45vh;
+    width: 43vh;
+    height: 47vh;
     margin-left: 20vh;
-    margin-top: 11vh;
+    margin-top: 14vh;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -168,7 +167,7 @@ button{
 
 .E1{
     padding: 0vh 2vh 2vh 2vh;
-    width: 50vh;
+    width: 63vh;
     margin-left: 0vh;
     font-size: large;
 }
@@ -189,7 +188,7 @@ button{
     width: 52.7vh;
     height: 40vh;
     background-color: #071952;
-    margin-left: 0px;
+    margin-left: 2vh;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
