@@ -185,8 +185,8 @@ button{
 }
 
 .elecimg{
-    width: 52.7vh;
-    height: 40vh;
+    width: 56.7vh;
+    height: 44vh;
     background-color: #071952;
     margin-left: 2vh;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
@@ -249,10 +249,10 @@ button{
 
 .personal{
     margin-top: 6.5vh;
-    width: 52.7vh;
+    width: 56.7vh;
 }
 
 .app{
-    width: 52.7vh;
-    height: 40vh;
+    width: 56.7vh;
+    height: 43vh;
 }
